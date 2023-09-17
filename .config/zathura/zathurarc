@@ -1,0 +1,4 @@
+set recolor   
+set recolor-keephue
+set default-bg \#000000
+
