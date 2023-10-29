@@ -1,7 +1,8 @@
-call plug#begin('~/.config/nvim/autoload/plugged')
+call plug#begin()
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " langage support
-    Plug 'daschw/leaf.nvim' " theme
+    Plug 'rebelot/kanagawa.nvim' " theme
     Plug 'jiangmiao/auto-pairs' " delimiter/autopair
-    Plug 'nvim-lua/plenary.nvim'
-    Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
+	Plug 'nvim-tree/nvim-web-devicons'
+	Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
+	Plug 'nvim-lualine/lualine.nvim'
 call plug#end()
